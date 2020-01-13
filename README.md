@@ -1,7 +1,12 @@
 # Fullstack app with Spring and React.
 
 Simple application developed with React for frontend, and Spring frameworks for RESTAPI using CRUD operations. Apllication allow us to add,delete and
-update a single course. 
+update a single course.
+" Important points to note:
+
+REST API is exposed using Spring Boot
+REST API is consumed from React Frontend to present the UI
+The Database, in this example, is a hardcoded in-memory static list."
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -31,17 +36,20 @@ That steps should run your application at localhost:3000
 * [Maven](https://maven.apache.org/) - Dependency Management
 
 
-**Recordit**
+**Home page**
 
 ![Recordit GIF](https://www.springboottutorial.com/images/full-stack-application-with-spring-boot-screenshot.png)
 
+**Edit course**
+
+![Recordit GIF](https://www.springboottutorial.com/images/full-stack-application-with-spring-boot-screenshot-2.png)
 
 
 ---
 
 ## Authors
 
-**Created with the help of a guide**
+**Created with the guide**
   https://www.springboottutorial.com/
 
 * **Kamil Babik** 
