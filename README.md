@@ -8,26 +8,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Maven 3.0+ for building Spring Boot API Project
-npm, webpack for building frontend
-Your favorite IDE. We use Eclipse for Java and Visual Studio Code for Frontend - JavaScript, TypeScript, Angular and React.
-JDK 1.8+
-Node v8+
-Embedded Tomcat, built into Spring Boot Starter Web
+-Maven 3.0+ for building Spring Boot API Project
+-npm, webpack for building frontend
+-Your favorite IDE. We use Eclipse for Java and Visual Studio Code for Frontend - JavaScript, TypeScript, Angular and React.
+-JDK 1.8+
+-Node v8+
+-Embedded Tomcat, built into Spring Boot Starter Web
 
 
-```
-Give examples
-```
 
 ### Installing
 
 1.  Have to run Java Application from master branch called \fullstackspringboot\frontend-spring-boot-react-crud-full-stack-with-maven hit 
 ```
 npm start
-```to start the service.
-
-
+```
 That steps should run your application at localhost:3000
 
 ## Built With
