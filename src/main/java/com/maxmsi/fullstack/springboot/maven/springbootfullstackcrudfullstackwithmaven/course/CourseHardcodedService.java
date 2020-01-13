@@ -19,6 +19,27 @@ public  class CourseHardcodedService {
 		    courses.add(new Course(++idCounter, "maxmsi",
 		        "Deploy Spring Boot Microservices to Cloud with Docker and Kubernetes"));
 		  }
+	
+	public Course findById(long id) {
+		  for (Course course: courses) {
+		    if (course.getId() == id) {
+		      return course;
+		    }
+		  }
+		  return null;
+		}
+
+	public Course deleteById(long id) {
+		Course course= findById(id);
+		if (course==null) {
+			return null;
+		}
+		if (courses.remove(course)) {
+			return course;
+		}
+		return course;
+		
+	}
 	public List<Course> findAll() {
 		    return courses;
 		  }
