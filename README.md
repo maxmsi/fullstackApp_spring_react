@@ -11,14 +11,14 @@ The Database, in this example, is a hardcoded in-memory static list."
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-*Maven 3.0+ for building Spring Boot API Project
-*npm, webpack for building frontend
-*Your favorite IDE. We use Eclipse for Java and Visual Studio Code for Frontend - JavaScript, TypeScript, Angular and React.
-*JDK 1.8+
-*Node v8+
-*Embedded Tomcat, built into Spring Boot Starter Web
+## Prerequisites
+Technologies used:
+* Maven 3.0+ for building Spring Boot API Project
+* npm, webpack for building frontend
+* Your favorite IDE. We use Eclipse for Java and Visual Studio Code for Frontend - JavaScript, TypeScript, Angular and React.
+* JDK 1.8+
+* Node v8+
+* Embedded Tomcat, built into Spring Boot Starter Web
 
 
 
