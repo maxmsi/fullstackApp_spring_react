@@ -8,9 +8,6 @@ REST API is exposed using Spring Boot
 REST API is consumed from React Frontend to present the UI
 The Database, in this example, is a hardcoded in-memory static list."
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Prerequisites
 Technologies used:
 * Maven 3.0+ for building Spring Boot API Project
